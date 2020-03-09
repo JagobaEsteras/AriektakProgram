@@ -8,6 +8,6 @@ import modelo.bean.Libro;
 public class LibroModelo extends Conector{
 	
 	public Libro select(int id){
-		
+		 
 	}
 }
