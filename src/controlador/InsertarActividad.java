@@ -57,14 +57,9 @@ public class InsertarActividad extends HttpServlet {
 		int maxParticipantes = Integer.parseInt(request.getParameter("max_participantes"));
 		double precio = Double.parseDouble(request.getParameter("precio"));
 		
-//		System.out.println(nombre);
-//		System.out.println(fechaInicio);
-//		System.out.println(diasSemana);
-//		System.out.println(horas);
-//		System.out.println(maxParticipantes);
-//		System.out.println(precio);
+
 		
-		//sortu acgividade objektu bat
+		//sortu comic objektu bat
 		Actividad actividad = new Actividad();
 		//jasotako datuekin setak egin
 		actividad.setNombre(nombre);
